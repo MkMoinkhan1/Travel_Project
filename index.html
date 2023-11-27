@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><img src="./img/logo.png" alt="">Traveler</span></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="content-text">
+            <h1>Explore The World</h1>
+            <h2>Create the blog to Your Journey</h2>
+        </div>
+      </div>
+      
+    <section>
+        <div class="gallery-main">
+            <div class="card">
+                <div class="img-container">
+                    <img src="./img/kasmir.jpg" alt="">
+                
+                </div>
+                <div class="box-content">
+                    <h1>Kashmir (India)</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laudantium deserunt quasi!</p>
+                </div>
+                <div class="like">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img src="./img/sentorini.jpg" alt="">
+                
+                </div>
+                <div class="box-content">
+                    <h1>Santorini (Greece)</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laudantium deserunt quasi!</p>
+                </div>
+                <div class="like">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img src="./img/viatnam.jpg" alt="">
+                
+                </div>
+                <div class="box-content">
+                    <h1>Phu Quoc (Vietnam)</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laudantium deserunt quasi!</p>
+                </div>
+                <div class="like">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img src="./img/bali.jpg" alt="">
+                
+                </div>
+                <div class="box-content">
+                    <h1>Bali (Indonesia)</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laudantium deserunt quasi!</p>
+                </div>
+                <div class="like">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img src="./img/turkey.jpg" alt="">
+                
+                </div>
+                <div class="box-content">
+                    <h1>Turkey</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laudantium deserunt quasi!</p>
+                </div>
+                <div class="like">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img src="./img/venice.jpg" alt="">
+                
+                </div>
+                <div class="box-content">
+                    <h1>Venice (Italy)</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laudantium deserunt quasi!</p>
+                </div>
+                <div class="like">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-container">
+                    <img src="./img/china.jpg" alt="">
+                
+                </div>
+                <div class="box-content">
+                    <h1>Great Wall Of China</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laudantium deserunt quasi!</p>
+                </div>
+                <div class="like">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                </div>
+            </div>
+            <div class="card">
+               <div class="img-container">
+                   <img src="./img/mangolia.jpg" alt="">
+            </div>
+                <div class="box-content">
+                    <h1>Mangolia</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laudantium deserunt quasi!</p>
+                </div>
+              
+                <div class="like">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer style="background-color: black;
+    text-align: center; padding: 10px 20px;color: white; position: relative;bottom: -120px;">
+        ©2023 Traveler.com, Inc. All rights reserved and Created by Moin Khan.
+    </footer>
+      <script>
+        let nav = document.querySelector("nav");
+          window.onscroll = function() {
+            if(document.documentElement.scrollTop > 20){
+              nav.classList.add("sticky");
+            }else {
+              nav.classList.remove("sticky");
+            }
+          }
+        </script>
+</body>
+</html>
